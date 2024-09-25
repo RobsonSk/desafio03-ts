@@ -6,6 +6,14 @@ const conta = {
     id: '1'
 }
 
+// const conta = {
+//     email: '1',
+//     password: '1',
+//     name: 'Nathaly Souza',
+//     balance: 2000.00,
+//     id: '1'
+// }
+
 export const api = new Promise((resolve) => {
     setTimeout(() => {
         resolve(conta)
